@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H ignite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="dashboardResp.css">
+    <link rel="stylesheet" href="contactResponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- here is the navigation menu  -->
+    <nav>
+        <span id="clck" onclick="hemberg()">
+            <div class="hemberger"></div>
+            <div class="hemberger"></div>
+            <div class="hemberger"></div>
+        </span>
+        <div class="logo"><img src="Group 1686563400.png" alt=""></div>
+        <ul>
+            <li class="drop">Home</li>
+            <li id="click" onclick="toggleHide()">services <div class="dropdown"></div>
+            </li>
+            <li>About us</li>
+            <li><a style="color: black;" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="button">
+            <div class="cta-button"><a style="color: Black;" href="login.html">Log in</a></div>
+            <div class="cta-button" style="color: white; background-color:#3B73B5; "><a style="color: white;" href="register.html">Register</a></div>
+        </div>
+        <div class="dropdown-item" id="item">
+            <li>Recharge and payments</li>
+            <li>Fund transfer bank to bank</li>
+            <li>Prepaid and postpaid</li>
+            <li>Online ticket booking</li>
+            <li>Home loan and PL loan</li>
+            <li>EMI and cards</li>
+            <li>Apply credit card</li>
+            <li>Life insurance & wehicle insurance</li>
+        </div>
+
+        <!-- Hemberger list items  -->
+        <div id="hidden" class="container">
+            <section>Home</section>
+            <section>About</section>
+            <section>Contact us</section>
+            <section>Services</section>
+        </div>
+    </nav>
+
+    <!-- left sidebar of dashboard -->
+
+    <div class="sidebar">
+        <div class="option">
+            <div style="color: #3B73B5; border: 2px solid #d5e9ff; border-top-left-radius: 10px; font-weight: 600; background-color: #cfe5ff;"
+                class="tab"><img src="dashboard.png" alt="">Dashboard</div>
+            <div class="tab"><img src="card.png" alt="">card</div>
+            <div class="tab"><img src="payment.png" alt="">Payment</div>
+            <div class="tab"><img src="invest.png" alt="">Investment</div>
+            <div class="tab"><img src="reports.png" alt="">Reports</div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="alert-box">
+            <div style="background-color: #3B73B5; color: white;" class="alert">
+                <p>Ignite wallet balcance</p><br>
+                <h3>₹ 20,500.32</h3>
+            </div>
+            <div style="background-color: #3CD75D; color: white;" class="alert">
+                <p>Total investment</p><br>
+                <h3>₹ 50,000.00</h3>
+            </div>
+            <div style="background-color: #FFD94A; color: white;" class="alert">
+                <p>Bank account balance</p>
+                <br>
+                <h3>₹ 76,288.60</h3>
+            </div>
+        </div>
+    </div>
+<h4 id="anous">Profit overview (Daily/monthly)</h4>
+    <div class="overview">
+        <div class="profit"><svg viewBox="0 0 36 36" class="circular-chart circle-bg">
+                <path class="circle circle-45" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                <text x="18" y="20" class="text">+ ₹612</text>
+            </svg>
+
+            <svg viewBox="0 0 36 36" class="circular-chart circle-bg">
+                <path class="circle circle-75" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                <text x="18" y="20" class="text">+ ₹3,680</text>
+            </svg>
+
+        </div>
+        <div class="reminder">Pyment Due Reminder
+            <div class="bill-1">
+                <div class="bill">
+                    <h3>Electricity bill</h3>
+                    <p> Due : 12/08/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+                <div class="bill">
+                    <h3>Boradband</h3>
+                    <p> Due : 09/09/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+                <div class="bill">
+                    <h3>DTH bill</h3>
+                    <p> Due : 23/08/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+                <div class="bill">
+                    <h3>LIC Premium</h3>
+                    <p> Due : 02/08/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+                <div class="bill">
+                    <h3>Mobile Recharge</h3>
+                    <p> Due : 02/08/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+                <div class="bill">
+                    <h3>Mobile postpaid bill</h3>
+                    <p> Due : 02/08/2023</p><img src="Arrow 4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card-section">
+        <div class="history">
+            <p>Payment history</p>
+            <div class="person-name"><img src="profile 2.jpg" alt="">
+                <h3>Niraj sharma</h3>
+                <p>₹400</p><button>view</button>
+            </div>
+            <div class="person-name"><img src="profile 2.jpg" alt="">
+                <h3>ITL limited</h3>
+                <p>₹400</p><button>view</button>
+            </div>
+            <div class="person-name"><img src="profile 2.jpg" alt="">
+                <h3>DK enterprises</h3>
+                <p>₹400</p><button>view</button>
+            </div>
+            <div class="person-name"><img src="profile 2.jpg" alt="">
+                <h3>karan shahi</h3>
+                <p>₹400</p><button>view</button>
+            </div>
+
+        </div>
+        <div class="investment"><p>Investment Activity</p>
+            <div class="activity"> <div class="inv"><img src="inv.png" alt="">BCCIL ltd</div><p>₹400</p><p>12/06/2023</p></div>
+            <div class="activity"> <div class="inv"><img src="inv.png" alt="">Balaji pvt ltd</div><p>₹400</p><p>12/06/2023</p></div>
+            <div class="activity"> <div class="inv"><img src="inv.png" alt="">Relience pvt</div><p>₹400</p><p>12/06/2023</p></div>
+            <div class="activity"> <div class="inv"><img src="inv.png" alt="">Sbi bank ltd</div><p>₹400</p><p>12/06/2023</p></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Powered by H ignite &copy copywrite All rights reserved</p>
+    </div>
+
+
+</body>
+<script>
+    function toggleHide() {
+        let click = document.getElementById('hide');
+        let item = document.getElementById('item')
+        if (item.style.display != 'none') {
+            item.style.display = 'none'
+        } else {
+            item.style.display = 'block'
+        }
+    }
+    function hemberg() {
+        var clck = document.getElementById('Clck');
+        var hidden = document.getElementById('hidden')
+        if (hidden.style.display != 'none') {
+            hidden.style.display = 'none'
+        } else {
+            hidden.style.display = 'block'
+        }
+    }
+</script>
+
+
+
+</html>

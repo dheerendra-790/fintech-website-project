@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H ignite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="contactResponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- here is the navigation menu  -->
+    <nav>
+        <span id="clck" onclick="hemberg()">
+            <div class="hemberger"></div>
+            <div class="hemberger"></div>
+            <div class="hemberger"></div>
+        </span>
+        <div class="logo"><img src="Group 1686563400.png" alt=""></div>
+        <ul>
+            <li class="drop">Home</li>
+            <li id="click" onclick="toggleHide()">services <div class="dropdown"></div>
+            </li>
+            <li>About us</li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="button">
+            <div class="cta-button"><a style="color: #3B73B5;" href="login.html">Log in</a></div>
+            <div class="cta-button" style="color: white; background-color:#3B73B5; "><a style="color: white;" href="register.html">Register</a></div>
+        </div>
+        <div class="dropdown-item" id="item">
+            <li>Recharge and payments</li>
+            <li>Fund transfer bank to bank</li>
+            <li>Prepaid and postpaid</li>
+            <li>Online ticket booking</li>
+            <li>Home loan and PL loan</li>
+            <li>EMI and cards</li>
+            <li>Apply credit card</li>
+            <li>Life insurance & wehicle insurance</li>
+        </div>
+
+        <!-- Hemberger list items  -->
+        <div id="hidden" class="container">
+            <section>Home</section>
+            <section>About</section>
+            <section>Contact us</section>
+            <section>Services</section>
+        </div>
+    </nav>
+
+
+      <div class="contact-us">
+            <div class="graphic"><img src="contact.png" alt=""></div>
+      </div>
+
+      <!-- help and support -->
+      <div style="margin: 4% !important;" class="help"><h2 id="heading">How can i help you?</h2>
+        <div class="sec">Customer support</div>
+        <div class="sec">Merchant support</div><div class="sec">Report fraud</div><div class="sec">Report Ethic concern</div>
+    </div>
+
+    <!-- contact details section  -->
+    <div class="detail">
+        <div class="customer-support"><h2>customer Support</h2> <br><p>Get instant help, we will try to 100% resolve your quarries</p><p style="color: #3B73B5;">Click here to reach us via phone</p>
+        <button> <img src="call.png" alt="">Call now</button>
+        <p id="number">+143409383260</p>
+        </div>
+        <div class="graphic"><img src="customer.png" alt=""></div>
+    </div>
+
+    <!-- Our registered adress section  -->
+
+    <div class="adress">
+        <div class="adress-detail"><h2>Our registered Address</h2><p>Office-2, Floor 12, Wing A, Block A,
+            Salarpuria Softzone, Service Road,
+            Green Glen Layout, Bellandur, Bangalore
+             South,
+            Bangalore, Karnataka - 560103, India
+            CIN: U82404KA2019PTC18765</p>
+            <button> <img src="map.png" alt="">View on map</button>
+        </div>
+        <div class="map"><img src="map.jpg" alt=""></div>
+    </div>
+
+
+    </div>
+
+    <div class="footer">
+        <p>Powered by H ignite &copy copywrite All rights reserved</p>
+    </div>
+
+
+</body>
+<script>
+    function toggleHide() {
+        let click = document.getElementById('hide');
+        let item = document.getElementById('item')
+        if (item.style.display != 'none') {
+            item.style.display = 'none'
+        } else {
+            item.style.display = 'block'
+        }
+    }
+    function hemberg() {
+        var clck = document.getElementById('Clck');
+        var hidden = document.getElementById('hidden')
+        if (hidden.style.display != 'none') {
+            hidden.style.display = 'none'
+        }else{
+            hidden.style.display = 'block'
+        }
+    }
+</script>
+
+
+
+</html>

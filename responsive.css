@@ -1,0 +1,279 @@
+@media screen and (max-width:1200px) {
+    .cashflow-content p {
+        font-size: 24px;
+    }
+    .cashflow-content h1 {
+        font-size: 45px;
+    }
+    .dropdown-item{
+        bottom: 16%;
+    }
+    .cashflow-image img{
+        height: 100%;
+    }
+    .dropdown-item{
+      top:85px;
+      font-size: 18px;
+      height: 12%;
+    }
+    .dropdown-item li {
+      background-color: white;
+    }
+}
+@media screen and (max-width:1024px){
+    .cashflow-content h1 {
+        font-size: 40px;
+      }
+      .cashflow-content p {
+        font-size: 22px;
+      }
+      #heading{
+        font-size: 3rem;
+      }
+      
+}
+@media screen and (max-width: 900px){
+    nav ul{
+        font-size: 1.2rem;
+    }
+    nav{
+        height: 10vh;
+    }
+    .dropdown-item {
+        font-size: 1rem;
+    }
+    .button .cta-button{
+        height: 2.3rem;
+    }
+    .cashflow-content h1 {
+        font-size: 30px;
+        margin: 8% 10%;
+      }
+      .cashflow-content p {
+        font-size: 20px;
+      }
+      #cta{
+        font-size: 18px;
+      }
+      .service-1 p{
+        font-size: 16px;
+      }
+      .info h2 {
+        font-size: 55px;
+    }
+    .info p {
+        font-size: 26px;
+        margin-top: 6%;
+    }
+    .solution {
+        font-size: 24px;
+        margin: 5% 10%;
+    }
+    .solution p{
+        height: 8vh;
+    }
+    #heading{
+        margin: 10%;
+        font-size: 2.4rem;
+    }
+    .button{
+        font-size: 16px;
+    }
+    .dropdown-item {
+      top: 65px;
+    }
+}
+@media screen and (max-width: 810px){
+    .solution{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 710px){
+    nav ul{
+        display: none;
+    }
+    .cashflow.content h1{
+        font-size: 32px;
+    }
+    .cashflow-content p {
+        font-size: 16px;
+      }
+      #heading {
+        margin: 8%;
+        font-size: 2.2rem;
+      }
+      .profile {
+        width: 300px;
+      }
+      #bold {
+        font-size: 1.5rem;
+      }
+      .solution {
+        font-size: 18px;
+    }
+    .service-1 img{
+        width: 105px;
+    }
+    .info h2 {
+        font-size: 45px;
+      }
+      .info p{
+        font-size: 16px;
+      }
+      #cta {
+        font-size: 16px;
+      }
+      .button{
+        margin-left: auto;
+        width: 220px;
+      }
+      span{
+        margin-left: 4%;
+        display: block;
+      }
+    }
+    @media screen and (max-width: 527px){
+        .cashflow-content h1 {
+            font-size: 26px;
+        }
+        .cashflow-content p {
+            font-size: 12px;
+          }
+        #cta{
+            width: 35%;
+            height: 32px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+        .button{
+            width: 174px;
+        }
+        .service-1 img {
+            width: 85px;
+          }
+          #heading{
+            font-size: 2rem;
+          }
+          .info h2 {
+            font-size: 36px;
+          }
+          .solution {
+            font-size: 16px;
+          }
+          .profile {
+            width: 270px;
+          }
+          #bold {
+            font-size: 1rem;
+          }
+    }
+    @media screen and (max-width:428px){
+        nav{
+            height: 15vw;
+        }
+        .cashflow-content h1 {
+            font-size: 22px;
+          }
+          .cashflow-content p {
+            font-size: 10px;
+          }
+          .logo img {
+            width: 115px;
+        }
+        .button .cta-button {
+            height: 2rem;
+          }
+          .button {
+            width: 152px;
+          }
+          #cta {
+            width: 40%;
+            height: 30px;
+            border-radius: 10px;
+            font-size: 10px;
+          }
+          #heading {
+            font-size: 1.6rem;
+          }
+          .service-1 img {
+            width: 74px;
+          }
+          .info h2 {
+            font-size: 30px;
+          }
+          .info p {
+            font-size: 12px;
+          }
+          #discription{
+            font-size: 12px;
+          }
+          .solution {
+            font-size: 12px;
+          }
+          .solution p {
+            height: 6vh;
+          }
+    }
+    @media screen and (max-width:375px){
+        .cashflow-content h1 {
+            font-size: 18px;
+          }
+          #cta {
+            width: 75%;
+            height: 28px;
+            border-radius: 8px;
+          }
+          .service-1 {
+            margin-left: 8%;
+            font-size: 10px;
+          }
+          .service-1 p{
+            font-size: 10px;
+          }
+          .info h2 {
+            font-size: 26px;
+          }
+          .info p {
+            font-size: 10px;
+          }
+          .profile {
+            width: 195px;
+          }
+          .button {
+            font-size: 12px;
+          }
+          .button .cta-button {
+            height: 1.7rem;
+          }
+          .logo img {
+            width: 108px;
+          }
+          .container {
+            top: 8vh;
+          }
+          .adress-detail p {
+            font-size: 14px;
+          }
+          .adress-detail button {
+            width: 75%;
+          }
+
+    }
+    @media screen and (max-width:648px){
+      .customer-support {
+        margin: 2%;
+        width: 40%;
+      }
+      .sec{
+        height: 40px;
+      }
+      .contact-us h1 {
+        font-size: 2.6rem;
+        top: 16%;
+      }
+      .contact-us p{
+        top: 26%;
+  font-size: 18px;
+      }
+    }
+    

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+  <title>Registration Page</title>
+  <style>
+
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    .register-container {
+      max-width: 300px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    .input-field {
+      margin-bottom: 20px;
+    }
+    .input-field input[type="text"],
+    .input-field input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .input-field input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+    }
+    .input-fields input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background: white;
+      color: black;
+      border: 1px solid black;
+    }
+    .google-login a{
+        width: 100%;
+  text-align: center;
+  box-shadow: 0 0 3px -1px black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.google-login{
+    display: flex;
+  height: 6vh;
+}
+.input-field input[type="submit"]:hover{
+    background-color: #3B73B5;
+    cursor: pointer;
+}
+  </style>
+</head>
+<body>
+
+<div class="register-container">
+  <h2>Register</h2>
+  <form>
+    <div class="input-field">
+      <input type="text" placeholder="Enter Username" name="username" required>
+    </div>
+    <div class="input-field">
+      <input type="password" placeholder="Enter Password" name="password" required>
+    </div>
+    <div class="input-field">
+      <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+    </div>
+    <div class="input-field">
+      <input type="email" placeholder="Enter Email" name="email" required>
+    </div>
+    <div class="input-field">
+      <input type="submit" value="Register">
+    </div>
+    <div class="input-fields">
+        <div class="google-login"><a href="dashboard.html">Log in with google</a></div>
+      </div>
+  </form>
+  <p>You already have an account? please <b><a href="login.html">Log in</a></b></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+@media screen and (max-width:900px){
+    .tab{
+        height: 5vh;
+    }
+    .bill h3 {
+        font-size: 12px;
+      }
+      .history p {
+        font-size: 1.3rem;
+    }
+    .history p {
+        font-size: 1rem;
+    }
+    .person-name h3{
+        font-size: 14px;
+    }
+    .inv{
+        font-size: 14px;
+    }
+    .investment p {
+        font-size: 14px;
+    }
+    .alert-box {
+        margin: 5%;
+    }
+    #anous {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:710px){
+    .option{
+        display: none;
+    }
+    .overview{
+        flex-direction: column;
+    }
+    .bill-1{
+        height: 11vh;
+        width: 96%;
+    }
+    .reminder {
+        height: 18vh;
+    }
+    .reminder {
+        margin-top: 10%;
+    }
+    .card-section {
+        flex-direction: column;
+    }
+    .bill p {
+        font-size: 12px;
+      }
+      .bill img {
+        width: 2%;
+      }
+      .person-name h3 {
+        font-size: 12px;
+      }
+      .inv {
+        font-size: 12px;
+        width: 24%;
+      }
+      .inv img {
+        width: 8%;
+    }
+    .investment p {
+        font-size: 12px;
+      }
+      .history p {
+        font-size: 12px;
+      }
+      .alert p {
+        font-size: 70%;
+      }
+      .alert h3 {
+        font-size: 100%;
+      }
+}
+@media screen and (max-width:490px){
+    .alert p {
+        font-size: 60%;
+      }
+      .alert h3 {
+        font-size: 75%;
+      }
+      .circular-chart {
+        max-width: 130px;
+    }
+    .bill h3 {
+        font-size: 10px;
+      }
+      .bill p {
+        font-size: 10px;
+      }
+      .person-name h3 {
+        font-size: 10px;
+      }
+      .person-name img {
+        height: 2vh;
+      }
+      .history p {
+        font-size: 10px;
+      }
+      .inv {
+        font-size: 10px;
+        width: 28%;
+      }
+      .investment p {
+        font-size: 10px;
+      }
+      .inv img{
+        width: 5%;
+  margin: 2%;
+      }
+      #anous {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:412px){
+.alert-box{
+    width: 98vw;
+}
+.alert{
+    margin: 0 1%;
+}
+.circular-chart {
+    max-width: 115px;
+  }
+}
